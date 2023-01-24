@@ -1,0 +1,24 @@
+{
+  "name": "beaver_it_guilde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@giscus/vue": "^2.2.6",
+    "deepmerge": "^4.2.2",
+    "vitepress": "^1.0.0-alpha.40",
+    "vitepress-tags": "^0.6.5",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "vitepress-plugin-auto-sidebar": "^1.0.5",
+    "vitepress-plugin-simple-search": "^1.3.3"
+  }
+}
