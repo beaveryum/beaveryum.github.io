@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,d as l}from"./app.bb490b37.js";const A=JSON.parse('{"title":"디비 사용량 과 용량 구하기","description":"","frontmatter":{},"headers":[],"relativePath":"php/기타/디비 사용량.md","lastUpdated":1674544713000}'),p={name:"php/기타/디비 사용량.md"},o=l("",2),e=[o];function t(c,D,r,F,y,C){return n(),a("div",null,e)}const _=s(p,[["render",t]]);export{A as __pageData,_ as default};
