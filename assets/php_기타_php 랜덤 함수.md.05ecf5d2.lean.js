@@ -1,1 +1,0 @@
-import{_ as s,c as a,o,d as n}from"./app.2244a037.js";const d=JSON.parse('{"title":"랜덤 함수 이용해서","description":"","frontmatter":{},"headers":[],"relativePath":"php/기타/php 랜덤 함수.md","lastUpdated":1674545383000}'),p={name:"php/기타/php 랜덤 함수.md"},l=n("",3),t=[l];function e(c,r,F,D,y,_){return o(),a("div",null,t)}const A=s(p,[["render",e]]);export{d as __pageData,A as default};
