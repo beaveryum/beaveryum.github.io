@@ -17,3 +17,8 @@
     /* Code Snippet font */
     --vp-font-family-mono: "Noto Sans KR", "Roboto", sans-serif;
 }
+
+
+.search-text {
+    border: 1px solid #ccc;
+}

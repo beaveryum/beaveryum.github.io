@@ -1,4 +1,3 @@
-import { SimpleSearch } from "vitepress-plugin-simple-search";
 import { getSidebar } from 'vitepress-plugin-auto-sidebar';
 import getTags from 'vitepress-tags';
 import { defineConfig } from 'vitepress';
@@ -14,13 +13,10 @@ const pages = getTags({
 export default defineConfig({
     head: [],
     lang: 'ko_KR',
-    base: "/guide/",
-    markdown: {
-        defaultHighlightLang: 'php'
-    },
-    plugins: [SimpleSearch({ baseURL: 'https://github.com/beaveryum/beaver_it_guide.git', regexForContentStripping: undefined })],
+    base: "/",
+    markdown: {defaultHighlightLang: 'php'},
     lastUpdated: true,
-    titleTemplate: ':title - 비버팩토리 기술 블로그',
+    titleTemplate: ':title',
     title: "비버팩토리 기술 블로그",
     themeConfig: {
         siteTitle: '비버팩토리 기술 블로그',
@@ -34,7 +30,7 @@ export default defineConfig({
         ],
         sidebar: getSidebar({
             contentRoot: '/docs/',
-            contentDirs: ['php', 'macos', 'ci4', 'nodejs', 'mysql', 'etc', 'js', 'server', 'vue', '그누&영카트'],
+            contentDirs: ['php', 'macos', 'ci4', 'nodejs', 'mysql', 'etc', 'js', 'server', 'vue2','vue3', '그누&영카트'],
             collapsible: true,
             collapsed: true
         }),

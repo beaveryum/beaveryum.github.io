@@ -7,5 +7,5 @@ hero:
   tagline: IT 개발에 대한 정보를 기록하는 공간
   actions:
     - theme: brand
-      text: 📝 블로그 바로가기
+      text: 📝 바로가기
       link: /php/

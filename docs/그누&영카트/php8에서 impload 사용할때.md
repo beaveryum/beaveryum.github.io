@@ -1,4 +1,8 @@
-# php8 에서 impload 사용할때 문제
+---
+title: 'php8 에서 impload 사용할때 문제'
+---
+
+# {{ $frontmatter.title }}
 
 impload 함수를 사용할 때 주의 해야 되는것은 배열 형태인지 확인 해야된다.
 
