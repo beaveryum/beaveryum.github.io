@@ -30,7 +30,7 @@ export default defineConfig({
         ],
         sidebar: getSidebar({
             contentRoot: '/docs/',
-            contentDirs: ['php', 'macos', 'ci4', 'nodejs', 'mysql', 'etc', 'js', 'server', 'vue2','vue3', '그누&영카트'],
+            contentDirs: ['php', 'macos','laravel','ios', 'flutter','ci4','reactjs','html&css', 'nodejs','bundle', 'mysql', 'etc', 'js', 'server', 'vue2','vue3', '그누&영카트'],
             collapsible: true,
             collapsed: true
         }),
