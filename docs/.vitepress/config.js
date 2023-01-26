@@ -28,6 +28,9 @@ export default defineConfig({
                 ]
             }
         ],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/beaveryum/beaveryum.github.io' },
+        ],
         sidebar: getSidebar({
             contentRoot: '/docs/',
             contentDirs: ['php', 'macos','laravel','ios', 'flutter','ci4','reactjs','html&css', 'nodejs','bundle', 'mysql', 'etc', 'js', 'server', 'vue2','vue3', '그누&영카트'],
